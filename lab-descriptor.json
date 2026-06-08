@@ -4,138 +4,108 @@
     "link": "http://vlab.co.in/broad-area-computer-science-and-engineering",
     "code": "CSE"
   },
-  "lab": "Data Structures – 1",
-  "lab_display_name": "Data Structures – 1",
-  "phase": 3,
-  "collegeName": "IIITH",
-  "baseUrl": "ds1-iiith.vlabs.ac.in",
-  "introduction": "Welcome to the Data Structures Lab - I developed at IIIT Hyderabad. Data Structures (also called Data Structures and Algorithms in some places) is a core course in all computer science undergraduate curricula. The course is the basis for understanding several data structures and also algorithms that operate on them. The course forms the foundation for almost all computer science subjects: compilers, operating systems, databases, AI and software engineering. The course comes with a lab in most universities in India. The associated lab in university curricula focuses on implementation of algorithms operating on the data structures, i.e., coding programs on the data structures and algorithms. Students embarking on the task of writing programs, however, often have difficulty visualizing how operations and algorithms modify a data structure. As a result students are often unable to understand or show the execution of an algorithm on a given data structure and write code effectively. Furthermore, students are unable to visually reason about the time and space complexities associated with an algorithm running on a data structure. The interactive experiments in this lab will give the students an opportunity for learning and better understanding of using algorithms.",
-  "experiment-sections": [
-    {
-      "sect-name": "Sorting",
-      "experiments": [
-        {
-          "name": "Bubble Sort",
-          "short-name": "bubble-sort",
-          "repo": "https://github.com/virtual-labs/exp-bubble-sort-iiith.git",
-          "tag": "v1.0.9",
-          "deploy": true
-        },
-        {
-          "name": "Merge Sort",
-          "short-name": "merge-sort",
-          "repo": "https://github.com/virtual-labs/exp-merge-sort-iiith.git",
-          "tag": "v1.0.8",
-          "deploy": true
-        },
-        {
-          "name": "Heap Sort",
-          "short-name": "heap-sort",
-          "repo": "https://github.com/virtual-labs/exp-heap-sort-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Quick Sort",
-          "short-name": "quick-sort",
-          "repo": "https://github.com/virtual-labs/exp-quick-sort-iiith",
-          "tag": "v1.0.8",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Graphs",
-      "experiments": [
-        {
-          "name": "Depth First Search",
-          "short-name": "depth-first-search",
-          "repo": "https://github.com/virtual-labs/exp-dfs-iiith",
-          "tag": "v1.0.9",
-          "deploy": true
-        },
-        {
-          "name": "Breadth First Search",
-          "short-name": "breadth-first-search",
-          "repo": "https://github.com/virtual-labs/exp-bfs-iiith/",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Trees",
-      "experiments": [
-        {
-          "name": "Tree Traversal",
-          "short-name": "tree-traversal",
-          "repo": "https://github.com/virtual-labs/exp-tree-traversal-iiith/",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Binary Search Trees",
-          "short-name": "binary-search-trees",
-          "repo": "https://github.com/virtual-labs/exp-bst-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Searching",
-      "experiments": [
-        {
-          "name": "Unsorted Arrays",
-          "short-name": "unsorted-arrays",
-          "repo": "https://github.com/virtual-labs/exp-unsorted-arrays-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Hashtables",
-          "short-name": "hash-tables",
-          "repo": "https://github.com/virtual-labs/exp-hashtables-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Linked Lists",
-      "experiments": [
-        {
-          "name": "Linked lists",
-          "short-name": "linked-list",
-          "repo": "https://github.com/virtual-labs/exp-linked-lists-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Polynomial Arithmetic using linked lists",
-          "short-name": "poly-arithmetic",
-          "repo": "https://github.com/virtual-labs/exp-polynomial-arithmetic-iiith",
-          "tag": "v1.0.6",
-          "deploy": true
-        }
-      ]
-    }
-  ],
+  "lab": "Deep Learning Virtual Laboratory",
+  "lab_display_name": "Deep Learning Virtual Laboratory",
+  "phase": "3-ext",
+  "collegeName": "DLBG",
+  "baseUrl": "dp-dei.vlabs.ac.in",
+  "introduction": " Deep Learning (DL) has emerged as one of the most influential areas of modern Artificial Intelligence, enabling major advances in computer vision, natural language processing, speech recognition, biomedical image analysis, autonomous systems, and intelligent decision-making. As deep learning is now widely included in undergraduate, postgraduate, and specialized AI curricula, there is a growing need for a structured laboratory platform that can support both conceptual understanding and practical experimentation. <br>The proposed Deep Learning Virtual Laboratory is designed to cover foundational as well as advanced topics commonly included in deep learning courses. The lab includes experiments on perceptrons, feedforward neural networks, activation functions and optimization, convolutional neural networks, transfer learning using pretrained deep CNNs, recurrent neural networks, LSTM-based sentiment analysis, autoencoders, generative adversarial networks, and vision transformers. This comprehensive coverage ensures that learners are gradually introduced to the building blocks of deep learning and then guided toward modern architectures used in real-world applications.<br>The platform is developed as a web-based, interactive environment that enables learners to explore deep neural network architectures, work with benchmark datasets, tune hyperparameters, and visualize training behavior through guided simulations. Each experiment follows a systematic workflow involving dataset preparation, model construction, training, parameter tuning, visualization, and performance evaluation. Visual outputs such as loss and accuracy curves, confusion matrices, feature maps, activation maps, reconstruction grids, and attention maps help students connect abstract theory with observable model behavior.<br>Overall, the Deep Learning Virtual Laboratory aims to provide a unified, scalable, and pedagogically sound framework for deep learning education. By offering browser-based access and reducing dependence on costly GPU infrastructure, the lab supports wider academic access, promotes standardized practical training, and strengthens the delivery of deep learning education across institutions.",
+  "experiments":[
+  {
+    "name": "Perceptron",
+    "short-name": "perceptron",
+    "repo": "https://github.com/virtual-labs/exp-perceptron-dei",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Feedforward Neural Networks (MLP)",
+    "short-name": "mlp",
+    "repo": "https://github.com/virtual-labs/exp-mlp-dei",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Activation Functions & Optimization",
+    "short-name": "activation-optimization",
+    "repo": "https://github.com/virtual-labs/exp-activation-optimization-dei",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Convolutional Neural Networks (CNN)",
+    "short-name": "cnn",
+    "repo": "https://github.com/virtual-labs/exp-cnn-dei",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Transfer Learning with Deep CNNs",
+    "short-name": "transfer-learning",
+    "repo": "https://github.com/virtual-labs/exp-transfer-learning-dei",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Recurrent Neural Networks (RNN)",
+    "short-name": "rnn",
+    "repo": "https://github.com/virtual-labs/exp-rnn-dei",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "LSTM for Sentiment Analysis",
+    "short-name": "lstm-sentiment",
+    "repo": "https://github.com/virtual-labs/exp-lstm-sentiment-dei",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Autoencoders for Representation Learning",
+    "short-name": "autoencoders",
+    "repo": "https://github.com/virtual-labs/exp-autoencoders-dei",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Generative Adversarial Networks (GANs)",
+    "short-name": "gans",
+    "repo": "https://github.com/virtual-labs/exp-gans-dei",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Transformers in Vision",
+    "short-name": "transformers-vision",
+    "repo": "https://github.com/virtual-labs/exp-transformers-vision-dei",
+    "tag": "v1.0.0",
+    "deploy": true
+  }
+] ,
   "targetAudience": {
     "UG": [
-      " Data Structures & Algorithms for 1st & 2nd year B. Tech./ B.E in Computer Science & Information Technology <br/>- B.Sc / B.S in Computer Science "
+      "Undergraduate students pursuing engineering, science, AI, Data Science, and allied programs with deep learning components"
     ],
     "PG": [
-      "Computer Science, Information Technology, Compilers, Operating systems, Databases, AI and Software engineering. <br/> - Ph. D. Beginners"
+      "Postgraduate students specializing in Artificial Intelligence, Machine Learning, Deep Learning, Data Science, and Computer Vision.Faculty members teaching deep learning, neural networks, computer vision, NLP, and AI-related laboratory courses.Beginner and intermediate learners seeking a structured and guided introduction to deep learning concepts and workflows.Students from institutions with limited access to GPU-enabled laboratories or advanced computing infrastructure.Researchers and project students who require a conceptual platform for experimenting with deep neural architectures before advanced implementation."
     ]
   },
-  "objective": "The Virtual Lab for Data Structures will focus on creating an environment where the student interactively explores data structures. The role of this Virtual Labs is to complement the lectures and reading material and the programming lab in three ways : 1. Present visual animations of data structures 2. Allow students to interactively execute algorithms in these data structures. 3. Allow students to interactively compute the cost of using these data structures with different algorithms.",
+  "objective": "Primary Objectives of the Deep Learning Virtual Laboratory<ul><li>To provide a web-based interactive environment for learning foundational and advanced deep learning concepts.</li><li>To enable hands-on experimentation with neural network models using benchmark and real-world datasets.</li><li>To enhance conceptual understanding through visualization of model architecture, training dynamics, and intermediate outputs.</li><li>To support guided learning through structured experiment workflows, theory capsules, quizzes, and instructional content.</li><li>To develop analytical and problem-solving skills through practical implementation and interpretation of deep learning models.</li><li>To facilitate understanding of complete deep learning workflows, including data preparation, model design, training, tuning, evaluation, and visualization.</li><li>To make deep learning experimentation accessible to students without requiring specialized local GPU infrastructure or complex software installation.</li><li>To expose learners to modern deep learning architectures such as CNNs, RNNs, LSTMs, Autoencoders, GANs, and Transformers in a progressive manner.</li>",
   "courseAlignment": {
-    "description": "The syllabi of this lab aligns to the following universities in India.",
+    "description": "The Deep Learning Virtual Laboratory is aligned with AICTE and UGC model curricula for undergraduate and postgraduate programs in Computer Science, Electrical Engineering, Artificial Intelligence, Data Science, Information Technology, and allied engineering disciplines. The proposed experiments correspond directly to the deep learning laboratory components prescribed in standard Indian university syllabi and support practical learning outcomes related to neural networks, CNNs, sequence models, generative models, and transformer-based architectures. Representative institutions and academic frameworks offering similar laboratory components include (but are not limited to):",
     "universities": [
-      "Osmania University Data Structures Lab",
-      "JNTU Data Structures Lab"
+      "GVP College of Engineering, Visakhapatnam",
+"Indian Institute of Technology Kharagpur, Kharagpur",
+"Indian Institute of Technology (Indian School of Mines), Dhanbad",
+"National Institute of Technology Tiruchirappalli, Tiruchirappalli",
+"National Institute of Technology Warangal, Warangal",
+"Jawaharlal Nehru Technological University Hyderabad, Hyderabad",
+"KG Reddy College of Engineering and Technology, Hyderabad",
+"MLR Institute of Technology, Hyderabad",
+"Malla Reddy College of Engineering and Technology, Hyderabad",
+"Indian Institutes of Information Technology and other AI/Data Science programs offering DL-oriented laboratory components",
+"AICTE Model Curriculum references for AI, Data Science, Machine Learning, Robotics, and Deep Learning courses"
     ]
 
- 
+  }
 }
